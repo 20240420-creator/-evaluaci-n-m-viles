@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Perfil3 Productos",
+    "slug": "perfil3-oscarperez",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#1E3A8A"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.oscarperez.perfil3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1E3A8A"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "115e0a17-7b83-487a-ac39-63402a35a327"
+      }
+    }
+  }
+}
